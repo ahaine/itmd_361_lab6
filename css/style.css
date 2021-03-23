@@ -34,4 +34,28 @@
 #main-navbar #onpage {
 	text-decoration: underline overline;
 }
+#sidebar {
+	background-color: red;
+	width: 20%;
+	right:0%;
+	height: 100%;
+	position: fixed;
+}
+#sidebar ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+#sidebar ul li {
+	padding: 15px 0;
+}
+#sidebar ul li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
 	
+	
+}
+#sidebar ul li a:hover {
+	background-color: #000
+}
